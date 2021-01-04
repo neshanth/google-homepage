@@ -1,4 +1,49 @@
+/* 
+Global styles
+*/
+
 body
 {
-    background-color: aqua;
+    background-color:#fff;
+    font-family: arial,sans-serif;
+    color:#000000de;
+    font-size: 13px;
+}
+ul li
+{
+    list-style: none;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+
+/* 
+  Icon Styles
+*/
+
+.apps-icon
+{
+    width:1.5%;
+}
+.profile-icon
+{
+    width:30px;
+    border-radius: 50%;
+}
+
+/* 
+  Navbar links
+*/
+.link-list
+{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.link-list > li
+{
+    margin: 0 1em;
 }
