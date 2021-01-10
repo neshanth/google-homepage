@@ -17,6 +17,7 @@ ul li
 a
 {
     text-decoration: none;
+    color:#737373;
 }
 
 
@@ -26,12 +27,13 @@ a
 
 .apps-icon
 {
-    width:1.5%;
+    width:1%;
 }
 .profile-icon
 {
     width:30px;
     border-radius: 50%;
+
 }
 
 /* 
@@ -41,9 +43,21 @@ a
 {
     display: flex;
     justify-content: flex-end;
+    margin:0;
+
     
 }
 .link-list > li
 {
-    margin: 0 1em;
+    margin: 0.5em 1em;
+}
+.links
+{
+  margin-top: 5em;
+}
+
+#profile
+{
+    margin-top: 0.2em;
+
 }
